@@ -1,0 +1,5 @@
+<root>
+    <item name='android.text.InputType TYPE_NULL'>
+        <annotation name='org.jetbrains.annotations.Nullable' />
+    </item>
+</root>
