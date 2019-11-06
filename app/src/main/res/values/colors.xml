@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0076FF</color>
-    <color name="colorPrimaryDark">#949494</color>
+    <color name="colorPrimaryDark">#F7F5F5</color>
     <color name="colorAccent">#272622</color>
-    <color name="Boton">#F3D1C9C9</color>
+    <color name="Boton">#F3F3F0F0</color>
+    <color name="boton11">#F7F5F5</color>
+    <color name="Boton2">#90979797</color>
+    <color name="Boton21">#C01414</color>
+    <color name="botones1_1">#F1F1F1</color>
+    <color name="botones1_2">#BEBEBE</color>
+    <color name="botones2_1">#FDD8D6D4</color>
+    <color name="botones2_2">#3D3D3D</color>
+
+
+
+
 </resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item
+        android:id="@+id/sen"
+        android:title="Seno"
+
+        />
+    <item
+        android:id="@+id/cos"
+        android:title="Coseno"/>
+    <item
+        android:id="@+id/sec"
+        android:title="Secante"/>
+    <item
+        android:id="@+id/csc"
+        android:title="Cosecante"/>
+    <item
+        android:id="@+id/tan"
+        android:title="Tangente"
+        />
+    <item
+        android:id="@+id/cot"
+        android:title="Cotangente"
+
+
+        />
+</menu>

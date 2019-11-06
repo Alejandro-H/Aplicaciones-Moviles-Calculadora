@@ -45,7 +45,7 @@
         <EditText
             android:id="@+id/contenedor2"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:singleLine="true"
             android:textAlignment="textEnd"
@@ -66,8 +66,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/boton_estilo2"
         android:onClick="Salir"
-        android:text="Salir"
-          />
+        android:text="Salir" />
 
     <Button
 
@@ -81,12 +80,11 @@
 
     <Button
         style="@style/botones_calculadora1"
-        android:onClick="Raiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/boton_estilo2"
-        android:text="√"
-          />
+        android:onClick="Raiz"
+        android:text="√" />
 
     <Button
         android:id="@+id/FUNC"
@@ -94,8 +92,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/boton_estilo2"
-        android:text="Func"
-          />
+        android:gravity="bottom"
+        android:text="Func" />
 
 
 </LinearLayout>
@@ -106,15 +104,16 @@
         android:layout_gravity="center_horizontal"
 
         >
+
         <Button
             style="@style/botones_calculadora1"
-            android:onClick="Cuadrado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="x^2"
-             
             android:background="@drawable/boton_estilo2"
-            />
+            android:onClick="Cuadrado"
+
+            android:text="x^2" />
+
         <Button
             style="@style/botones_calculadora1"
             android:onClick="Borrartodo"
